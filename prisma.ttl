@@ -1,0 +1,1136 @@
+@prefix : <urn:webprotege:ontology:9c3aec0d-189d-4425-ba8e-d1088bed8708#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:9c3aec0d-189d-4425-ba8e-d1088bed8708> .
+
+<urn:webprotege:ontology:9c3aec0d-189d-4425-ba8e-d1088bed8708> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R8cSv70kOc7QkKEMdptaUwm
+<http://webprotege.stanford.edu/R8cSv70kOc7QkKEMdptaUwm> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX> ;
+                                                         rdfs:label "Type of hormones"@en .
+
+
+###  http://webprotege.stanford.edu/R9F6v8DVmtqoKHpuxTCU5eA
+<http://webprotege.stanford.edu/R9F6v8DVmtqoKHpuxTCU5eA> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:label "PreviousCancerDiagnosis"@en .
+
+
+###  http://webprotege.stanford.edu/RDDDSK5ZtczMdDu8K1VgASv
+<http://webprotege.stanford.edu/RDDDSK5ZtczMdDu8K1VgASv> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:label "Cancer Treatment"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R2S8e5TA6gLi8LLb1BrPtw
+<http://webprotege.stanford.edu/R2S8e5TA6gLi8LLb1BrPtw> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBVhUkAiJuo20taGfx4xyVF> ;
+                                                        rdfs:label "Number of Breast Cancer Diagnoses"@en .
+
+
+###  http://webprotege.stanford.edu/R3xSvBQnPskXIwCY5N17Bk
+<http://webprotege.stanford.edu/R3xSvBQnPskXIwCY5N17Bk> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R79xplxLADxDlp0bTlMeBiq> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C81257> ;
+                                                        rdfs:label "Date last period"@en .
+
+
+###  http://webprotege.stanford.edu/R4IzCnTYhTCiaAXztRMr9x
+<http://webprotege.stanford.edu/R4IzCnTYhTCiaAXztRMr9x> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R79xplxLADxDlp0bTlMeBiq> ;
+                                                        rdfs:label "Reason stopped"@en .
+
+
+###  http://webprotege.stanford.edu/R73agNIGcpP2hdlFyjQXvsC
+<http://webprotege.stanford.edu/R73agNIGcpP2hdlFyjQXvsC> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range xsd:integer ;
+                                                         rdfs:label "Number of full-sisters"@en .
+
+
+###  http://webprotege.stanford.edu/R75tqBBY1P9yxXThtbsZxi3
+<http://webprotege.stanford.edu/R75tqBBY1P9yxXThtbsZxi3> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range xsd:integer ;
+                                                         rdfs:label "Number of half-sisters"@en .
+
+
+###  http://webprotege.stanford.edu/R78l04CC9nytcVRB1VcVtjA
+<http://webprotege.stanford.edu/R78l04CC9nytcVRB1VcVtjA> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "Date of birth"@en .
+
+
+###  http://webprotege.stanford.edu/R7HnYM4MmN155hGBFLHJbIM
+<http://webprotege.stanford.edu/R7HnYM4MmN155hGBFLHJbIM> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range xsd:integer ;
+                                                         rdfs:label "Year of immigration"@en .
+
+
+###  http://webprotege.stanford.edu/R7KDY8fH8DMinEbVUXReKdE
+<http://webprotege.stanford.edu/R7KDY8fH8DMinEbVUXReKdE> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8uWUUpGOvQ6I34eB2rZPuv> ,
+                                                                     <http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25471> ;
+                                                         rdfs:label "Hours per week - current age"@en .
+
+
+###  http://webprotege.stanford.edu/R7OAPPw4PkaJ5LnupPW5rNa
+<http://webprotege.stanford.edu/R7OAPPw4PkaJ5LnupPW5rNa> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBFXP8tkg78DVSIBX4xW2SP> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C159308> ;
+                                                         rdfs:label "Year of reduction"@en .
+
+
+###  http://webprotege.stanford.edu/R7PfB5c62tbx7FFALrM2ggJ
+<http://webprotege.stanford.edu/R7PfB5c62tbx7FFALrM2ggJ> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBo80czDiM1D1q6UeF91yez> ;
+                                                         rdfs:label "Alcoholic beverages"@en .
+
+
+###  http://webprotege.stanford.edu/R7dNC1xFc61H6hmrGxzMx0R
+<http://webprotege.stanford.edu/R7dNC1xFc61H6hmrGxzMx0R> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "Date of interview"@en .
+
+
+###  http://webprotege.stanford.edu/R7gfcYyLHG45rt6G11WNgs5
+<http://webprotege.stanford.edu/R7gfcYyLHG45rt6G11WNgs5> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBFXP8tkg78DVSIBX4xW2SP> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122977> ;
+                                                         rdfs:label "Side of reduction"@en .
+
+
+###  http://webprotege.stanford.edu/R7hVb619BP9FghjGEgfyh9u
+<http://webprotege.stanford.edu/R7hVb619BP9FghjGEgfyh9u> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/392089008> ;
+                                                         rdfs:label "Type of surgery"@en .
+
+
+###  http://webprotege.stanford.edu/R7o3ltRdJogEejbmDSX88Ki
+<http://webprotege.stanford.edu/R7o3ltRdJogEejbmDSX88Ki> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8uWUUpGOvQ6I34eB2rZPuv> ;
+                                                         rdfs:label "Type of daily activity"@en .
+
+
+###  http://webprotege.stanford.edu/R7sDFrgZ2YIDZZ1a4AP0mT4
+<http://webprotege.stanford.edu/R7sDFrgZ2YIDZZ1a4AP0mT4> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBAltQ5rs264TtG0v3b9mHD> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MESH/D000073577> ;
+                                                         rdfs:label "Ever worked in shifts"@en .
+
+
+###  http://webprotege.stanford.edu/R8XDncyPqAJ7b7m5TKi7Gs7
+<http://webprotege.stanford.edu/R8XDncyPqAJ7b7m5TKi7Gs7> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8xX26RghzPxmXdo4hMxyEN> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/LA20057-8> ;
+                                                         rdfs:label "Fertility treatment"@en .
+
+
+###  http://webprotege.stanford.edu/R8XSBjR23hqV02Ej151nQ0X
+<http://webprotege.stanford.edu/R8XSBjR23hqV02Ej151nQ0X> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range xsd:integer ;
+                                                         rdfs:label "Number of half-brothers"@en .
+
+
+###  http://webprotege.stanford.edu/R8YCu1Bnn60NJ0rSC67uD2m
+<http://webprotege.stanford.edu/R8YCu1Bnn60NJ0rSC67uD2m> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBQ459uEYAztDqLpJBu8to5> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25616> ;
+                                                         rdfs:label "Total Time Used"@en .
+
+
+###  http://webprotege.stanford.edu/R8vyYDS6pQBR7QChYrveTnI
+<http://webprotege.stanford.edu/R8vyYDS6pQBR7QChYrveTnI> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ> ;
+                                                         rdfs:label "Age hysterectomy"@en .
+
+
+###  http://webprotege.stanford.edu/R8xMXQuh4Br2Ac4XFXxOl9d
+<http://webprotege.stanford.edu/R8xMXQuh4Br2Ac4XFXxOl9d> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:label "Type of medication"@en .
+
+
+###  http://webprotege.stanford.edu/R8ym2noPkpHXMZdKO5OVIBj
+<http://webprotege.stanford.edu/R8ym2noPkpHXMZdKO5OVIBj> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8wdLHLaFuqJAPusOaJfjK3> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C122977> ;
+                                                         rdfs:label "Side of enlargement"@en .
+
+
+###  http://webprotege.stanford.edu/R90c5ZRcwJDs3efy9yH0lOJ
+<http://webprotege.stanford.edu/R90c5ZRcwJDs3efy9yH0lOJ> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R7YYEaGNBaunkM0SR3xNN9m> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/392089008> ;
+                                                         rdfs:label "Type of procedure BBD"@en .
+
+
+###  http://webprotege.stanford.edu/R92izMHRNOjcdfkDQbZmhJN
+<http://webprotege.stanford.edu/R92izMHRNOjcdfkDQbZmhJN> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX> ;
+                                                         rdfs:label "Type of hormones"@en .
+
+
+###  http://webprotege.stanford.edu/R94D9qeWQpnYywbBAxw1QYk
+<http://webprotege.stanford.edu/R94D9qeWQpnYywbBAxw1QYk> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25638> ;
+                                                         rdfs:label "Reason"@en .
+
+
+###  http://webprotege.stanford.edu/R97aPzDe0DBzVp71PR2O2mI
+<http://webprotege.stanford.edu/R97aPzDe0DBzVp71PR2O2mI> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9QFZB2PSCp1zNkR3CCss2G> ,
+                                                                     <http://webprotege.stanford.edu/RD2npkWuD12z0j7Ehs2GhSp> ,
+                                                                     <http://webprotege.stanford.edu/RDHHprtjE9tZkMXVzJ61778> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/MTHU029991> ;
+                                                         rdfs:label "Current Age"@en .
+
+
+###  http://webprotege.stanford.edu/R9Ge9kRVbso4oTmrPj8vNAw
+<http://webprotege.stanford.edu/R9Ge9kRVbso4oTmrPj8vNAw> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBAltQ5rs264TtG0v3b9mHD> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/266961004> ;
+                                                         rdfs:label "Type of shifts"@en .
+
+
+###  http://webprotege.stanford.edu/R9IDTruhw9dNhRXswoD4AZZ
+<http://webprotege.stanford.edu/R9IDTruhw9dNhRXswoD4AZZ> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8uWUUpGOvQ6I34eB2rZPuv> ,
+                                                                     <http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C172480> ;
+                                                         rdfs:label "Hours per week - age 18"@en .
+
+
+###  http://webprotege.stanford.edu/R9LgfrvMIrKeBTMYTH6IR3V
+<http://webprotege.stanford.edu/R9LgfrvMIrKeBTMYTH6IR3V> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RtcEXCnBjmBBY0p7vplwX> ;
+                                                         rdfs:label "Time One Way"@en .
+
+
+###  http://webprotege.stanford.edu/R9VdB60jnDxbturJFBRaGPJ
+<http://webprotege.stanford.edu/R9VdB60jnDxbturJFBRaGPJ> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41256> ;
+                                                         rdfs:label "Type of family member"@en .
+
+
+###  http://webprotege.stanford.edu/R9X1o8XmLycFV6y3K6APR70
+<http://webprotege.stanford.edu/R9X1o8XmLycFV6y3K6APR70> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:isDefinedBy <http://localhost/plosthes.2017-1#9129> ;
+                                                         rdfs:label "Medical treatment"@en .
+
+
+###  http://webprotege.stanford.edu/R9fIV4JhDkOSb5p6jmDIsps
+<http://webprotege.stanford.edu/R9fIV4JhDkOSb5p6jmDIsps> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18849> ;
+                                                         rdfs:label "Type of Cancer"@en .
+
+
+###  http://webprotege.stanford.edu/R9mxn7NduuCfEabRHwZFxAf
+<http://webprotege.stanford.edu/R9mxn7NduuCfEabRHwZFxAf> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8wdLHLaFuqJAPusOaJfjK3> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C159308> ;
+                                                         rdfs:label "Year of enlargement"@en .
+
+
+###  http://webprotege.stanford.edu/R9unSgN9w8fgkolozO3eoHo
+<http://webprotege.stanford.edu/R9unSgN9w8fgkolozO3eoHo> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8WFCQP6ij5aNupJ2p03OHm> ;
+                                                         rdfs:label "Duration in years (per specific time period)"@en .
+
+
+###  http://webprotege.stanford.edu/RB6pHR9Zc39V3lrXSMEa4ej
+<http://webprotege.stanford.edu/RB6pHR9Zc39V3lrXSMEa4ej> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/LA20057-8> ;
+                                                         rdfs:label "Type of treatment"@en .
+
+
+###  http://webprotege.stanford.edu/RB9atW3byvcI6dtVjHHuYpN
+<http://webprotege.stanford.edu/RB9atW3byvcI6dtVjHHuYpN> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R79xplxLADxDlp0bTlMeBiq> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19666> ;
+                                                         rdfs:label "Age at menarche"@en .
+
+
+###  http://webprotege.stanford.edu/RBAczvLB2XW1kwzudjpxCUK
+<http://webprotege.stanford.edu/RBAczvLB2XW1kwzudjpxCUK> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R769VHGQ30xxNaDnNYTwohW> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25616> ;
+                                                         rdfs:label "Time Per Session"@en .
+
+
+###  http://webprotege.stanford.edu/RBKyZcgn6lo4rn87qOcmB6x
+<http://webprotege.stanford.edu/RBKyZcgn6lo4rn87qOcmB6x> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBAltQ5rs264TtG0v3b9mHD> ;
+                                                         rdfs:label "Total Period"@en .
+
+
+###  http://webprotege.stanford.edu/RBSsEN0EoNjQYNdqaG7D0Og
+<http://webprotege.stanford.edu/RBSsEN0EoNjQYNdqaG7D0Og> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBAltQ5rs264TtG0v3b9mHD> ;
+                                                         rdfs:label "Year started"@en .
+
+
+###  http://webprotege.stanford.edu/RBTWSJ7fMv79sFUzTLMHUVu
+<http://webprotege.stanford.edu/RBTWSJ7fMv79sFUzTLMHUVu> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8WFCQP6ij5aNupJ2p03OHm> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/LP310255-7> ;
+                                                         rdfs:label "Cigarettes per day (per specific time period)"@en .
+
+
+###  http://webprotege.stanford.edu/RBUKJ6FuA02PHfav9p4ZQib
+<http://webprotege.stanford.edu/RBUKJ6FuA02PHfav9p4ZQib> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R79xplxLADxDlp0bTlMeBiq> ;
+                                                         rdfs:label "Period stopped"@en .
+
+
+###  http://webprotege.stanford.edu/RBZIs1ulMHdX4SaI7s81JAT
+<http://webprotege.stanford.edu/RBZIs1ulMHdX4SaI7s81JAT> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range xsd:boolean ;
+                                                         rdfs:label "Adopted"@en .
+
+
+###  http://webprotege.stanford.edu/RBf5rg3wNmnWJddE2AUNnDB
+<http://webprotege.stanford.edu/RBf5rg3wNmnWJddE2AUNnDB> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:range xsd:int ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76325> ;
+                                                         rdfs:label "Birth weight"@en .
+
+
+###  http://webprotege.stanford.edu/RBhp1xlT9YbW1GtkfAAkF2e
+<http://webprotege.stanford.edu/RBhp1xlT9YbW1GtkfAAkF2e> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX> ;
+                                                         rdfs:label "Year stopped"@en .
+
+
+###  http://webprotege.stanford.edu/RBlUOR7ATKq2ikIl9W8CF9D
+<http://webprotege.stanford.edu/RBlUOR7ATKq2ikIl9W8CF9D> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R7YYEaGNBaunkM0SR3xNN9m> ;
+                                                         rdfs:label "Side of breast"@en .
+
+
+###  http://webprotege.stanford.edu/RBy9p3k3RewbYsAcasGyn7S
+<http://webprotege.stanford.edu/RBy9p3k3RewbYsAcasGyn7S> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "Date of mammogram"@en .
+
+
+###  http://webprotege.stanford.edu/RC505j3RF3qBDOUdZ6FDeoF
+<http://webprotege.stanford.edu/RC505j3RF3qBDOUdZ6FDeoF> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8WFCQP6ij5aNupJ2p03OHm> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C106404> ;
+                                                         rdfs:label "Smoking Status"@en .
+
+
+###  http://webprotege.stanford.edu/RCFfZuGZJVFN767MkR04ez3
+<http://webprotege.stanford.edu/RCFfZuGZJVFN767MkR04ez3> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:label "Frequency"@en .
+
+
+###  http://webprotege.stanford.edu/RCJ0w9q83XcTbkVbVzCoUA4
+<http://webprotege.stanford.edu/RCJ0w9q83XcTbkVbVzCoUA4> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBo80czDiM1D1q6UeF91yez> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/307449003> ;
+                                                         rdfs:label "Frequency per week/month"@en .
+
+
+###  http://webprotege.stanford.edu/RCKnAwcDsAINiLTc1Yaf4SZ
+<http://webprotege.stanford.edu/RCKnAwcDsAINiLTc1Yaf4SZ> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9s8gQRD7hkdTzGykvHnWvf> ,
+                                                                     <http://webprotege.stanford.edu/RBVhUkAiJuo20taGfx4xyVF> ;
+                                                         rdfs:label "Side Of Breast"@en .
+
+
+###  http://webprotege.stanford.edu/RCNGO8ZtxwRrY1XpvA7a1YE
+<http://webprotege.stanford.edu/RCNGO8ZtxwRrY1XpvA7a1YE> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R79xplxLADxDlp0bTlMeBiq> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/MTHU038049> ;
+                                                         rdfs:label "Age last period"@en .
+
+
+###  http://webprotege.stanford.edu/RCSQ2WL8cx7Aoq5g3Z34AaT
+<http://webprotege.stanford.edu/RCSQ2WL8cx7Aoq5g3Z34AaT> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8uWUUpGOvQ6I34eB2rZPuv> ,
+                                                                     <http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C172480> ;
+                                                         rdfs:label "Hours per week - age 7"@en .
+
+
+###  http://webprotege.stanford.edu/RCbnmczVORB1zOpYGjtrbQM
+<http://webprotege.stanford.edu/RCbnmczVORB1zOpYGjtrbQM> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C121581> ;
+                                                         rdfs:label "Hours of sleep"@en .
+
+
+###  http://webprotege.stanford.edu/RCcG7YtiH3EHw7OQpHTWJXU
+<http://webprotege.stanford.edu/RCcG7YtiH3EHw7OQpHTWJXU> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R89RmEGYzONYb2nJQWfBxT5> ,
+                                                                     <http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68> ,
+                                                                     <http://webprotege.stanford.edu/RtcEXCnBjmBBY0p7vplwX> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C170633> ;
+                                                         rdfs:label "Days per week"@en .
+
+
+###  http://webprotege.stanford.edu/RCeSH8ft8EHmNXMMFVwq3da
+<http://webprotege.stanford.edu/RCeSH8ft8EHmNXMMFVwq3da> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R89RmEGYzONYb2nJQWfBxT5> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25207> ;
+                                                         rdfs:label "Time Per Day"@en .
+
+
+###  http://webprotege.stanford.edu/RClqtRWFaL9sBUQ1MDjcE1w
+<http://webprotege.stanford.edu/RClqtRWFaL9sBUQ1MDjcE1w> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBo80czDiM1D1q6UeF91yez> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/307444008> ;
+                                                         rdfs:label "Number of Glasses/Bottles/Cans per month/week"@en .
+
+
+###  http://webprotege.stanford.edu/RCmY3zis99vJPAYJ4nBB1L7
+<http://webprotege.stanford.edu/RCmY3zis99vJPAYJ4nBB1L7> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9QFZB2PSCp1zNkR3CCss2G> ,
+                                                                     <http://webprotege.stanford.edu/RD2npkWuD12z0j7Ehs2GhSp> ,
+                                                                     <http://webprotege.stanford.edu/RDHHprtjE9tZkMXVzJ61778> ;
+                                                         rdfs:label "Type of family member diagnosed"@en .
+
+
+###  http://webprotege.stanford.edu/RCyMFtkosgoflfbH3WB9Hkq
+<http://webprotege.stanford.edu/RCyMFtkosgoflfbH3WB9Hkq> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R7YYEaGNBaunkM0SR3xNN9m> ;
+                                                         rdfs:label "Number of biopsies"@en .
+
+
+###  http://webprotege.stanford.edu/RDQNrrdEm4l96ZZQNtdj1EN
+<http://webprotege.stanford.edu/RDQNrrdEm4l96ZZQNtdj1EN> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range rdfs:Literal ;
+                                                         rdfs:label "Ethnicity"@en .
+
+
+###  http://webprotege.stanford.edu/RDc1WEOn6bklBUSpGu7Wf3h
+<http://webprotege.stanford.edu/RDc1WEOn6bklBUSpGu7Wf3h> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8uWUUpGOvQ6I34eB2rZPuv> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C172601> ;
+                                                         rdfs:label "Activity level"@en .
+
+
+###  http://webprotege.stanford.edu/RDcM8f9XDGawAcAIUHaIn8d
+<http://webprotege.stanford.edu/RDcM8f9XDGawAcAIUHaIn8d> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R769VHGQ30xxNaDnNYTwohW> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/307449003> ;
+                                                         rdfs:label "Frequency per week/month"@en .
+
+
+###  http://webprotege.stanford.edu/RDkD8tlA9MsHVsontY7lMpq
+<http://webprotege.stanford.edu/RDkD8tlA9MsHVsontY7lMpq> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                         rdfs:range rdfs:Literal ;
+                                                         rdfs:label "Country of birth"@en .
+
+
+###  http://webprotege.stanford.edu/RDmhYCQx9RkTOiFIoHGOxXg
+<http://webprotege.stanford.edu/RDmhYCQx9RkTOiFIoHGOxXg> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX> ;
+                                                         rdfs:label "Year started"@en .
+
+
+###  http://webprotege.stanford.edu/RDnjBu2V7CbcVwaLIJ0MZR9
+<http://webprotege.stanford.edu/RDnjBu2V7CbcVwaLIJ0MZR9> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCFLcMM8xQt3lhbK0MK5Oyd> ;
+                                                         rdfs:label "Year oophorectomy"@en .
+
+
+###  http://webprotege.stanford.edu/RDqRgRzPtk5QzUBWqpBsjcM
+<http://webprotege.stanford.edu/RDqRgRzPtk5QzUBWqpBsjcM> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:label "Medically treated"@en .
+
+
+###  http://webprotege.stanford.edu/RDxM18pFW4kghCk2oDcBmo
+<http://webprotege.stanford.edu/RDxM18pFW4kghCk2oDcBmo> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:range xsd:int ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83164> ;
+                                                        rdfs:label "Birth year"@en .
+
+
+###  http://webprotege.stanford.edu/RFCzJxsBCzfvzeL4h7sa2L
+<http://webprotege.stanford.edu/RFCzJxsBCzfvzeL4h7sa2L> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:range xsd:dateTime ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25616> ;
+                                                        rdfs:label "Nursing Time"@en .
+
+
+###  http://webprotege.stanford.edu/RFKZobVdRP4ESDytIYX2Uz
+<http://webprotege.stanford.edu/RFKZobVdRP4ESDytIYX2Uz> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R8xX26RghzPxmXdo4hMxyEN> ;
+                                                        rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/MTHU060265> ;
+                                                        rdfs:label "Tried to get pregnant > 1yr"@en .
+
+
+###  http://webprotege.stanford.edu/RFVRaQDofU7oBESxVKVOfp
+<http://webprotege.stanford.edu/RFVRaQDofU7oBESxVKVOfp> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                        rdfs:label "Initial cancer diagnosis date"@en .
+
+
+###  http://webprotege.stanford.edu/RKLgYUMP2iTvheeo6500hf
+<http://webprotege.stanford.edu/RKLgYUMP2iTvheeo6500hf> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R8xX26RghzPxmXdo4hMxyEN> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C106551> ;
+                                                        rdfs:label "Number Of Pregnancies"@en .
+
+
+###  http://webprotege.stanford.edu/RU3f5OwtbgbP2ImiHg9p9t
+<http://webprotege.stanford.edu/RU3f5OwtbgbP2ImiHg9p9t> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/55446002> ;
+                                                        rdfs:label "Genetic mutation"@en .
+
+
+###  http://webprotege.stanford.edu/RXRX8vdXqPt40neUmjl9U8
+<http://webprotege.stanford.edu/RXRX8vdXqPt40neUmjl9U8> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28421> ;
+                                                        rdfs:label "Sex"@en .
+
+
+###  http://webprotege.stanford.edu/RYEEWMZYK3nF95jZ8wGMJe
+<http://webprotege.stanford.edu/RYEEWMZYK3nF95jZ8wGMJe> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                        rdfs:range xsd:decimal ;
+                                                        rdfs:label "Body weight"@en .
+
+
+###  http://webprotege.stanford.edu/RZELRbrvn7N493u59cTiD2
+<http://webprotege.stanford.edu/RZELRbrvn7N493u59cTiD2> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBwPMB8F5HiU1Ebf3AcCikw> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C172601> ;
+                                                        rdfs:label "Activity level during leisure time"@en .
+
+
+###  http://webprotege.stanford.edu/RfLPFk9jYPsDaQpgaon4Q5
+<http://webprotege.stanford.edu/RfLPFk9jYPsDaQpgaon4Q5> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBAltQ5rs264TtG0v3b9mHD> ;
+                                                        rdfs:label "Year stopped"@en .
+
+
+###  http://webprotege.stanford.edu/RhMFisGslTlwrTsBLsZCod
+<http://webprotege.stanford.edu/RhMFisGslTlwrTsBLsZCod> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R8xX26RghzPxmXdo4hMxyEN> ;
+                                                        rdfs:isDefinedBy <http://purl.obolibrary.org/obo/OBI_0002395> ;
+                                                        rdfs:label "Number Of Live Births"@en .
+
+
+###  http://webprotege.stanford.edu/Ri7WymW10DKZPob4c073i5
+<http://webprotege.stanford.edu/Ri7WymW10DKZPob4c073i5> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                        rdfs:range xsd:decimal ;
+                                                        rdfs:label "Waist circumference"@en .
+
+
+###  http://webprotege.stanford.edu/RinHlAYjTTeo66r8h3TkAu
+<http://webprotege.stanford.edu/RinHlAYjTTeo66r8h3TkAu> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10063477> ;
+                                                        rdfs:label "Type of test"@en .
+
+
+###  http://webprotege.stanford.edu/RjCtcnSPFrozQggpxfmTst
+<http://webprotege.stanford.edu/RjCtcnSPFrozQggpxfmTst> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                        rdfs:range xsd:integer ;
+                                                        rdfs:label "Number of full-brothers"@en .
+
+
+###  http://webprotege.stanford.edu/Rnok6yqmp5wNcXSAQvMJdn
+<http://webprotege.stanford.edu/Rnok6yqmp5wNcXSAQvMJdn> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                        rdfs:range rdfs:Literal ;
+                                                        rdfs:label "Level of education"@en .
+
+
+###  http://webprotege.stanford.edu/Rq0prElvqtMuNI8a0VvO6P
+<http://webprotege.stanford.edu/Rq0prElvqtMuNI8a0VvO6P> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R7bja504NBzrQidqOQBSuvs> ,
+                                                                    <http://webprotege.stanford.edu/RBVhUkAiJuo20taGfx4xyVF> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C157434> ;
+                                                        rdfs:label "Year of diagnosis"@en .
+
+
+###  http://webprotege.stanford.edu/RqALTms4M41w5DBX6F6Y2P
+<http://webprotege.stanford.edu/RqALTms4M41w5DBX6F6Y2P> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25616> ;
+                                                        rdfs:label "Total Time Used"@en .
+
+
+###  http://webprotege.stanford.edu/RuClDi3xdLrtUoAwIlejBe
+<http://webprotege.stanford.edu/RuClDi3xdLrtUoAwIlejBe> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> ;
+                                                        rdfs:range xsd:decimal ;
+                                                        rdfs:label "Body height"@en .
+
+
+###  http://webprotege.stanford.edu/RuSQwB3tHGogr9GTUEwqL6
+<http://webprotege.stanford.edu/RuSQwB3tHGogr9GTUEwqL6> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R9QFZB2PSCp1zNkR3CCss2G> ,
+                                                                    <http://webprotege.stanford.edu/RD2npkWuD12z0j7Ehs2GhSp> ,
+                                                                    <http://webprotege.stanford.edu/RDHHprtjE9tZkMXVzJ61778> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C156420> ;
+                                                        rdfs:label "Age at diagnosis"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ
+<http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R9s8gQRD7hkdTzGykvHnWvf> ;
+                                                        rdfs:isDefinedBy <http://purl.bioontology.org/ontology/CSP/2587-7160> ;
+                                                        rdfs:label "Surgery on Uterus/ovaries"@en .
+
+
+###  http://webprotege.stanford.edu/R5yZarOBj91oz6SRq7hNiL
+<http://webprotege.stanford.edu/R5yZarOBj91oz6SRq7hNiL> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                        rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10006153> ;
+                                                        rdfs:label "Brain tumor"@en .
+
+
+###  http://webprotege.stanford.edu/R769VHGQ30xxNaDnNYTwohW
+<http://webprotege.stanford.edu/R769VHGQ30xxNaDnNYTwohW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBwPMB8F5HiU1Ebf3AcCikw> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85399> ;
+                                                         rdfs:label "Type of Exercise/Sporting Activities"@en .
+
+
+###  http://webprotege.stanford.edu/R79xplxLADxDlp0bTlMeBiq
+<http://webprotege.stanford.edu/R79xplxLADxDlp0bTlMeBiq> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19666> ;
+                                                         rdfs:label "Menstruation"@en .
+
+
+###  http://webprotege.stanford.edu/R7AAT1xRCbAb1n31bMkkUea
+<http://webprotege.stanford.edu/R7AAT1xRCbAb1n31bMkkUea> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10040808> ;
+                                                         rdfs:label "Skin Cancer"@en .
+
+
+###  http://webprotege.stanford.edu/R7JohdQsinhtCimHKyHzwFH
+<http://webprotege.stanford.edu/R7JohdQsinhtCimHKyHzwFH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RiuiZIxTxuEs356f87t1GF> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C168231> ,
+                                                                          <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25204> ;
+                                                         rdfs:label "Sibling"@en .
+
+
+###  http://webprotege.stanford.edu/R7YYEaGNBaunkM0SR3xNN9m
+<http://webprotege.stanford.edu/R7YYEaGNBaunkM0SR3xNN9m> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RiWdgELXlqVKYyCbt4Se3p> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/419307005> ;
+                                                         rdfs:label "Type of Benign Breast Disease"@en .
+
+
+###  http://webprotege.stanford.edu/R7bja504NBzrQidqOQBSuvs
+<http://webprotege.stanford.edu/R7bja504NBzrQidqOQBSuvs> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10006187> ;
+                                                         rdfs:label "Breast Cancer"@en .
+
+
+###  http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX
+<http://webprotege.stanford.edu/R85wl6gFpIjJF51OYrgosbX> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15445> ;
+                                                         rdfs:label "Hormonal Treatment"@en .
+
+
+###  http://webprotege.stanford.edu/R89BZBtZuytLqqgWnnn8sdV
+<http://webprotege.stanford.edu/R89BZBtZuytLqqgWnnn8sdV> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15256> ;
+                                                         rdfs:label "Hysterectomy"@en .
+
+
+###  http://webprotege.stanford.edu/R89RmEGYzONYb2nJQWfBxT5
+<http://webprotege.stanford.edu/R89RmEGYzONYb2nJQWfBxT5> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBwPMB8F5HiU1Ebf3AcCikw> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104103> ;
+                                                         rdfs:label "Type of Activities – Leisure Time"@en .
+
+
+###  http://webprotege.stanford.edu/R8OGo7Yl2KFILMncFJZeSxd
+<http://webprotege.stanford.edu/R8OGo7Yl2KFILMncFJZeSxd> rdf:type owl:Class ;
+                                                         rdfs:label "Quality of Life/Wellbeing"@en ;
+                                                         rdfs:seeAlso <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104314> .
+
+
+###  http://webprotege.stanford.edu/R8WFCQP6ij5aNupJ2p03OHm
+<http://webprotege.stanford.edu/R8WFCQP6ij5aNupJ2p03OHm> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C106404> ,
+                                                                          <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19796> ;
+                                                         rdfs:label "Smoking Habits"@en .
+
+
+###  http://webprotege.stanford.edu/R8cSP3wMKinnkVOjDXE6JVz
+<http://webprotege.stanford.edu/R8cSP3wMKinnkVOjDXE6JVz> rdf:type owl:Class ;
+                                                         rdfs:label "Person"@en .
+
+
+###  http://webprotege.stanford.edu/R8isyztuDAiwr7lSjcMfz2P
+<http://webprotege.stanford.edu/R8isyztuDAiwr7lSjcMfz2P> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCyrpgmJy3CfDyj4EwE1dRw> ;
+                                                         rdfs:label "Chemotherapy"@en .
+
+
+###  http://webprotege.stanford.edu/R8roK5cyPsNjQVMHGxMd3br
+<http://webprotege.stanford.edu/R8roK5cyPsNjQVMHGxMd3br> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBi7Q92dHBlo0b68jIm3cqK> ;
+                                                         rdfs:label "Body Shape Age 18"@en .
+
+
+###  http://webprotege.stanford.edu/R8uWUUpGOvQ6I34eB2rZPuv
+<http://webprotege.stanford.edu/R8uWUUpGOvQ6I34eB2rZPuv> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53291> ;
+                                                         rdfs:label "Physical Activity – Work/Daytime Activities"@en .
+
+
+###  http://webprotege.stanford.edu/R8wdLHLaFuqJAPusOaJfjK3
+<http://webprotege.stanford.edu/R8wdLHLaFuqJAPusOaJfjK3> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9s8gQRD7hkdTzGykvHnWvf> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C107225> ,
+                                                                          <http://purl.bioontology.org/ontology/MEDDRA/10006242> ;
+                                                         rdfs:label "Breast Enlargement"@en .
+
+
+###  http://webprotege.stanford.edu/R8xX26RghzPxmXdo4hMxyEN
+<http://webprotege.stanford.edu/R8xX26RghzPxmXdo4hMxyEN> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C106551> ;
+                                                         rdfs:label "Info Pregnancy"@en .
+
+
+###  http://webprotege.stanford.edu/R8zHSSd1B7gFlgPIYm7Wt3J
+<http://webprotege.stanford.edu/R8zHSSd1B7gFlgPIYm7Wt3J> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:label "Painkillers"@en .
+
+
+###  http://webprotege.stanford.edu/R93pM7QXaNpecpJV5Nq8tq9
+<http://webprotege.stanford.edu/R93pM7QXaNpecpJV5Nq8tq9> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10025650> ;
+                                                         rdfs:label "Malignant Melanoma"@en .
+
+
+###  http://webprotege.stanford.edu/R9CvXVRP5USCmX5x83L8Dll
+<http://webprotege.stanford.edu/R9CvXVRP5USCmX5x83L8Dll> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10038038> ;
+                                                         rdfs:label "Rectal cancer"@en .
+
+
+###  http://webprotege.stanford.edu/R9Fh5Akhlh8eMDNFVosth64
+<http://webprotege.stanford.edu/R9Fh5Akhlh8eMDNFVosth64> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10025044> ;
+                                                         rdfs:label "Lung cancer"@en .
+
+
+###  http://webprotege.stanford.edu/R9QFZB2PSCp1zNkR3CCss2G
+<http://webprotege.stanford.edu/R9QFZB2PSCp1zNkR3CCss2G> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RB2TZUJSb2paBoSWKvRJ7vc> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171218> ,
+                                                                          <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29878> ;
+                                                         rdfs:label "Family History of Ovarian Cancer"@en .
+
+
+###  http://webprotege.stanford.edu/R9ewBkBfqKynHIh0WAbISuP
+<http://webprotege.stanford.edu/R9ewBkBfqKynHIh0WAbISuP> rdf:type owl:Class ;
+                                                         rdfs:label "Treatment"@en .
+
+
+###  http://webprotege.stanford.edu/R9o3fMZnDyXlaGnzGwI2CDl
+<http://webprotege.stanford.edu/R9o3fMZnDyXlaGnzGwI2CDl> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10046766> ;
+                                                         rdfs:label "Uterine cancer"@en .
+
+
+###  http://webprotege.stanford.edu/R9s8gQRD7hkdTzGykvHnWvf
+<http://webprotege.stanford.edu/R9s8gQRD7hkdTzGykvHnWvf> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9ewBkBfqKynHIh0WAbISuP> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C157802> ;
+                                                         rdfs:label "Surgical Procedure"@en .
+
+
+###  http://webprotege.stanford.edu/R9v2SLvSwCLT4bgzCpLLBeW
+<http://webprotege.stanford.edu/R9v2SLvSwCLT4bgzCpLLBeW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10009944> ;
+                                                         rdfs:label "Colon cancer"@en .
+
+
+###  http://webprotege.stanford.edu/R9z5PrjnJXuaTZaNST7G2hy
+<http://webprotege.stanford.edu/R9z5PrjnJXuaTZaNST7G2hy> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8OGo7Yl2KFILMncFJZeSxd> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20078> ;
+                                                         rdfs:label "SF-36 Questionnaire"@en .
+
+
+###  http://webprotege.stanford.edu/RB2TZUJSb2paBoSWKvRJ7vc
+<http://webprotege.stanford.edu/RB2TZUJSb2paBoSWKvRJ7vc> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29878> ;
+                                                         rdfs:label "Family History of Cancer"@en .
+
+
+###  http://webprotege.stanford.edu/RB7Tai2RC0zr54Hqf3gDcdk
+<http://webprotege.stanford.edu/RB7Tai2RC0zr54Hqf3gDcdk> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94466> ;
+                                                         rdfs:label "Removal of cervix"@en .
+
+
+###  http://webprotege.stanford.edu/RBAltQ5rs264TtG0v3b9mHD
+<http://webprotege.stanford.edu/RBAltQ5rs264TtG0v3b9mHD> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/266961004> ;
+                                                         rdfs:label "Shift work"@en .
+
+
+###  http://webprotege.stanford.edu/RBFXP8tkg78DVSIBX4xW2SP
+<http://webprotege.stanford.edu/RBFXP8tkg78DVSIBX4xW2SP> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9s8gQRD7hkdTzGykvHnWvf> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C51615> ;
+                                                         rdfs:label "Breast Reduction"@en .
+
+
+###  http://webprotege.stanford.edu/RBQ459uEYAztDqLpJBu8to5
+<http://webprotege.stanford.edu/RBQ459uEYAztDqLpJBu8to5> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C37932> ;
+                                                         rdfs:label "Contraception"@en .
+
+
+###  http://webprotege.stanford.edu/RBVhUkAiJuo20taGfx4xyVF
+<http://webprotege.stanford.edu/RBVhUkAiJuo20taGfx4xyVF> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RoUfhSJNnW9PyivWAtK42z> ;
+                                                         rdfs:isDefinedBy <http://purl.jp/bio/4/id/201306067931547298> ;
+                                                         rdfs:label "Info Breast Cancer Diagnoses"@en .
+
+
+###  http://webprotege.stanford.edu/RBcOujDdEmFHEQcRoWiHqiH
+<http://webprotege.stanford.edu/RBcOujDdEmFHEQcRoWiHqiH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:label "Medication that lowers cholesterol level"@en .
+
+
+###  http://webprotege.stanford.edu/RBhgd8RcVoAVsczaTrMIifh
+<http://webprotege.stanford.edu/RBhgd8RcVoAVsczaTrMIifh> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10008229> ;
+                                                         rdfs:label "Cervical cancer"@en .
+
+
+###  http://webprotege.stanford.edu/RBi7Q92dHBlo0b68jIm3cqK
+<http://webprotege.stanford.edu/RBi7Q92dHBlo0b68jIm3cqK> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MESH/D013008> ;
+                                                         rdfs:label "Body Shape"@en .
+
+
+###  http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75
+<http://webprotege.stanford.edu/RBkYcjgg72NMYtZNWK5fr75> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8cSP3wMKinnkVOjDXE6JVz> ;
+                                                         rdfs:label "Participant"@en .
+
+
+###  http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E
+<http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/LNC/MTHU051604> ;
+                                                         rdfs:label "Medication"@en .
+
+
+###  http://webprotege.stanford.edu/RBo80czDiM1D1q6UeF91yez
+<http://webprotege.stanford.edu/RBo80czDiM1D1q6UeF91yez> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <http://purl.obolibrary.org/obo/NCIT_C81229> ;
+                                                         rdfs:label "Alcohol Use"@en .
+
+
+###  http://webprotege.stanford.edu/RBwPMB8F5HiU1Ebf3AcCikw
+<http://webprotege.stanford.edu/RBwPMB8F5HiU1Ebf3AcCikw> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17708> ;
+                                                         rdfs:label "Physical Activity – Leisure Time"@en .
+
+
+###  http://webprotege.stanford.edu/RC3YyTSrbsuFQ7LnBZlOIR
+<http://webprotege.stanford.edu/RC3YyTSrbsuFQ7LnBZlOIR> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                        rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10033604> ;
+                                                        rdfs:label "Pancreatic cancer"@en .
+
+
+###  http://webprotege.stanford.edu/RC7OcFHs1Kc17Iq3rN0FrtQ
+<http://webprotege.stanford.edu/RC7OcFHs1Kc17Iq3rN0FrtQ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:label "Medication that lowers blood pressure"@en .
+
+
+###  http://webprotege.stanford.edu/RCAAy0oBHxdjzgUxKo36zWV
+<http://webprotege.stanford.edu/RCAAy0oBHxdjzgUxKo36zWV> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8OGo7Yl2KFILMncFJZeSxd> ;
+                                                         rdfs:label "QoL Past Week"@en ;
+                                                         rdfs:seeAlso <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C104314> .
+
+
+###  http://webprotege.stanford.edu/RCFLcMM8xQt3lhbK0MK5Oyd
+<http://webprotege.stanford.edu/RCFLcMM8xQt3lhbK0MK5Oyd> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ> ;
+                                                         rdfs:label "Oophorectomy"@en .
+
+
+###  http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3
+<http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RsOs2Gtn8GUo3ELgq4tn66> ;
+                                                         rdfs:label "Previous Cancer Diagnosis"@en .
+
+
+###  http://webprotege.stanford.edu/RCvTSMpCKbZr0V6O2PGCJZ6
+<http://webprotege.stanford.edu/RCvTSMpCKbZr0V6O2PGCJZ6> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:label "Anti-inflammatory drug"@en .
+
+
+###  http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68
+<http://webprotege.stanford.edu/RCvxAkZhtWJjTanXyNy1Q68> rdf:type owl:Class ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17708> ;
+                                                         rdfs:label "Physical Activity"@en .
+
+
+###  http://webprotege.stanford.edu/RCwpDmtLcXxFrNI8rqvQ1SJ
+<http://webprotege.stanford.edu/RCwpDmtLcXxFrNI8rqvQ1SJ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C433> ;
+                                                         rdfs:label "DES"@en ;
+                                                         rdfs:seeAlso <http://purl.bioontology.org/ontology/LNC/LP266032-4> .
+
+
+###  http://webprotege.stanford.edu/RCyrpgmJy3CfDyj4EwE1dRw
+<http://webprotege.stanford.edu/RCyrpgmJy3CfDyj4EwE1dRw> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R9ewBkBfqKynHIh0WAbISuP> ;
+                                                         rdfs:label "Non-surgical Procedure"@en .
+
+
+###  http://webprotege.stanford.edu/RD2npkWuD12z0j7Ehs2GhSp
+<http://webprotege.stanford.edu/RD2npkWuD12z0j7Ehs2GhSp> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RB2TZUJSb2paBoSWKvRJ7vc> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29878> ,
+                                                                          <http://purl.bioontology.org/ontology/MEDDRA/10008229> ;
+                                                         rdfs:label "Family History of Cervical Cancer"@en .
+
+
+###  http://webprotege.stanford.edu/RDHHprtjE9tZkMXVzJ61778
+<http://webprotege.stanford.edu/RDHHprtjE9tZkMXVzJ61778> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RB2TZUJSb2paBoSWKvRJ7vc> ;
+                                                         rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171239> ,
+                                                                          <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29878> ;
+                                                         rdfs:label "Family History of Breast Cancer"@en .
+
+
+###  http://webprotege.stanford.edu/RDIOL6MnjFoEESK7DRjp1ba
+<http://webprotege.stanford.edu/RDIOL6MnjFoEESK7DRjp1ba> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBnKEoDqqfkyWHeLbS4fk4E> ;
+                                                         rdfs:label "Medication that lowers blood sugar"@en .
+
+
+###  http://webprotege.stanford.edu/RDPwKR4bGhLVZmbf80m4ajc
+<http://webprotege.stanford.edu/RDPwKR4bGhLVZmbf80m4ajc> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBi7Q92dHBlo0b68jIm3cqK> ;
+                                                         rdfs:label "Body Shape Current Age"@en .
+
+
+###  http://webprotege.stanford.edu/RDgpAfKOPPLgDgyX1mn1clo
+<http://webprotege.stanford.edu/RDgpAfKOPPLgDgyX1mn1clo> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                         rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10033128> ;
+                                                         rdfs:label "Ovarian cancer"@en .
+
+
+###  http://webprotege.stanford.edu/RDkQku6LsLXlHtGE89s5ZXj
+<http://webprotege.stanford.edu/RDkQku6LsLXlHtGE89s5ZXj> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBi7Q92dHBlo0b68jIm3cqK> ;
+                                                         rdfs:label "Body Shape Age 7"@en .
+
+
+###  http://webprotege.stanford.edu/RNffC2DxQhXNna4mmgJOIW
+<http://webprotege.stanford.edu/RNffC2DxQhXNna4mmgJOIW> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C92901> ;
+                                                        rdfs:label "Sterilization"@en .
+
+
+###  http://webprotege.stanford.edu/RUqfiJFSUeuZFTyX1QypvY
+<http://webprotege.stanford.edu/RUqfiJFSUeuZFTyX1QypvY> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RCViPdhffrfmI7opHVSQRD3> ;
+                                                        rdfs:isDefinedBy <http://purl.bioontology.org/ontology/MEDDRA/10025311> ;
+                                                        rdfs:label "Lymphoma (Non-Hodgkin)"@en .
+
+
+###  http://webprotege.stanford.edu/RbL2LdOQatatMNL4B0Wz3u
+<http://webprotege.stanford.edu/RbL2LdOQatatMNL4B0Wz3u> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R1RLKuRTQJdyFvQewqLMhZ> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15216> ;
+                                                        rdfs:label "Curettage"@en .
+
+
+###  http://webprotege.stanford.edu/RiWdgELXlqVKYyCbt4Se3p
+<http://webprotege.stanford.edu/RiWdgELXlqVKYyCbt4Se3p> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RsOs2Gtn8GUo3ELgq4tn66> ;
+                                                        rdfs:label "Previous conditions"@en .
+
+
+###  http://webprotege.stanford.edu/RiuiZIxTxuEs356f87t1GF
+<http://webprotege.stanford.edu/RiuiZIxTxuEs356f87t1GF> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8cSP3wMKinnkVOjDXE6JVz> ;
+                                                        rdfs:label "Family Member"@en .
+
+
+###  http://webprotege.stanford.edu/RoUfhSJNnW9PyivWAtK42z
+<http://webprotege.stanford.edu/RoUfhSJNnW9PyivWAtK42z> rdf:type owl:Class ;
+                                                        rdfs:label "Diagnosis"@en .
+
+
+###  http://webprotege.stanford.edu/Roifon5nMp51GvHHeqyXCY
+<http://webprotege.stanford.edu/Roifon5nMp51GvHHeqyXCY> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RBwPMB8F5HiU1Ebf3AcCikw> ;
+                                                        rdfs:isDefinedBy <http://purl.bioontology.org/ontology/SNOMEDCT/160634009> ;
+                                                        rdfs:label "Competing Sports"@en .
+
+
+###  http://webprotege.stanford.edu/RsOs2Gtn8GUo3ELgq4tn66
+<http://webprotege.stanford.edu/RsOs2Gtn8GUo3ELgq4tn66> rdf:type owl:Class ;
+                                                        rdfs:label "Participant medical history"@en .
+
+
+###  http://webprotege.stanford.edu/RtcEXCnBjmBBY0p7vplwX
+<http://webprotege.stanford.edu/RtcEXCnBjmBBY0p7vplwX> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://webprotege.stanford.edu/R8uWUUpGOvQ6I34eB2rZPuv> ;
+                                                       rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C141286> ;
+                                                       rdfs:label "Mode of Transport"@en .
+
+
+###  http://webprotege.stanford.edu/Rx9kgKraORctolPx2dtadF
+<http://webprotege.stanford.edu/Rx9kgKraORctolPx2dtadF> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/RiWdgELXlqVKYyCbt4Se3p> ;
+                                                        rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2985> ,
+                                                                         <http://purl.bioontology.org/ontology/SNOMEDCT/405751000> ;
+                                                        rdfs:label "Type of Diabetes"@en .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
